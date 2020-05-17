@@ -1,6 +1,9 @@
 function getValue() {
-    // var $formObject = document.getElementById( "input-form" );
-    var $formObject = event.target;
+    // var $formObject = event.target.value;
+    // document.getElementById("output").innerHTML = $formObject;
+
+
+    var $formObject = document.getElementById( "input-form" );
     document.getElementById("output").innerHTML = $formObject.inputForm.value;
-    
+
 }

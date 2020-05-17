@@ -1,3 +1,24 @@
-body {
+/* body {
   font-family: sans-serif;
+} */
+
+/* <style> */
+#sampleForm,
+#sampleOutput {
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
+#sampleForm {
+    background-color: #f0f8ff;
+}
+#sampleOutput {
+    background-color: #00ffff;
+}
+#sampleForm * {
+    margin: 0 0 7px 0;
+    vertical-align: text-top;
+}
+/* </style> */
